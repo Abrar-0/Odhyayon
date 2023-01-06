@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>SDS</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+  
+    <style>
+
+        .tab { margin-left: 40px; }
+        .tab1
+        { margin-left: 50px; }
+        .tab2
+        { margin-left: 60px; }
+        @media print {
+			input#btnPrint {
+				display: none;
+				
+			               }
+		             }
+    </style>
+    </head>
+    <body>
+        <body>
+            <div class="wrapper">
+              <!-- Sidebar  -->
+              <nav id="sidebar">
+                <div class="sidebar-header">
+                  <h2 style="font-family: domillion brush free;"><a href="SDS.html">Odhyayon</a></h2>
+                </div>
+          
+                <ul class="list-unstyled components">
+                  <p style="font-family: Lato Black;text-align: center;">SDS for Odhyayon</p>
+                  <li>
+                    <a href="#table_content">Table of Content</a>
+                  </li>
+                  <li>
+                    <a href="#introduction">Introduction</a>
+          
+                  </li>
+                  <li>
+                    <a href="#designcomponent">Description of Design Components</a>
+          
+                  </li>
+                  <li>
+                    <a href="#hignlevelcomponent">High-Level Component Design</a>
+                  </li>
+                  <li>
+                    <a href="#classdiagrams">Class diagrams</a>
+                  </li>
+                  <li>
+                    <a href="#database">Database Design</a>
+                  </li>
+                  <li>
+                    <a href="#implementation">Implementation Plan</a>
+                  </li>
+                </ul>
+          
+                <ul class="list-unstyled CTAs">
+                  <li>
+                    <a href="#" class="download" onclick="window.print()">Print</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+              <!-- Page Content  -->
+              <div id="content">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container-fluid">
+          
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                         <i class="fas fa-align-left"></i>
+                                   <span>Toggle Sidebar</span>
+                                  </button>
+                                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                          <i class="fas fa-align-justify"></i>
+                                      </button>
+                                  </div>
+                             </nav>
+                             <h1 style="text-align: center;">Software Design Specification for Odhyayon</h1>
+                             <br><br>
+                       <br>
+                <br>
+      <br>
+      <h1><a id="introduction">1. Introduction</a></h1>
+      <br>
+          <h3>1.1 Purpose</h3>
+          <div>
+            The purpose of this design document is to present the system design plan of our 
+            project named <b>'Odhyayon'</b>. This document is based on the Software Requirement
+            Specification(SRS) of <b>Odhyayon</b> and will provide details about:
+           <ul>
+            <li>1. Detailed Description of Design Components</li>
+            <li>2. Class Diagrams</li>
+            <li>3. Detailed Description of classes</li>
+            <li>4. Database Design</li>
+            <li>5. Database Details</li>
+            <li>6. High Level Component Design</li>
+            <li>7. Architectural Design </li>
+           </ul>
+          </div>
+          <h3>1.2 Scope of Project</h3>
+          <div>
+            This software will be a platform for teachers and students to engage in convenient learning. Teachers can create classroom, 
+            assign reading materials for students and assign deadlines for it. It will help the both parties to maintain a class in a disciplined manner.
+          </div>
+          <br>
+          <h3>1.3 Definitions, Acronyms and Abbreviations</h3>
+          <div>
+          <ul>
+           <li>User - Person using the software.</li>
+           <li>Admin - Person having the access into the system and database.</li>
+           <li>SDS - System Design Specification.</li>
+           <li>UML Diagram - Unified Modeling Language Diagram.</li> 
+           <li>Home page - The 1st page that user will see while visiting the application.</li>
+					 <li>Registration Page – The initial page to allow users to register.</li>
+					 <li>Login Page – The initial page to allow registered user to login .</li>  
+           <li>ERD - Entity Relationship Diagram</li>   
+          </ul>      
+          </div>
+          <h3>1.4 Document Conventions</h3>
+          <div>
+            This document is styled according to IEEE SDS template.
+          </div>
+          <br>
+          <h3>1.5 References</h3>
+          <div>
+           <ul>
+            <li><a href=https://docs.djangoproject.com/en/3.2>https://docs.djangoproject.com/en/3.2</a></li>
+            <li><a href=https://www.mysql.com>https://www.mysql.com</a></li>
+            <li><a href="https://www.android.com">https://www.android.com</a></li>
+            <li><a href="https://www.w3schools.com">https://www.w3schools.com</a></li>
+           </ul>  
+          </div>
+      <br><br>
+      <br>
+      <h1><a id="designcomponent">2. Description of Design Components</a></h1>
+      This content provides a basic overview of the design procedures of a few key components 
+				of the software. The tables will exhibit more details on key components:
+        <ul>
+          <li>
+            Database: We will use MySQL in our database system. It will contain tables to
+					describe diverse classes of information and will likewise discuss connections and 
+					dependencies between each table.
+          </li>
+          <li>
+            Server Software: Our server software will directly manipulate the contents of 
+					the database 
+          </li>
+          <li>
+            Web User: The User Software will live on a workstation and will be likewise accessible 
+            on both platforms. Our goal is to give the teachers a lively platform on which they can 
+            teach and give students a smooth experience on learning things.From here they can create
+            classrooms, add materials and receive questions from students.
+          </li>
+          <li>
+            Android User: All the functionalities available in web will be available here too.
+          </li>
+        </ul>
+      <br><br>
+      <br>
+      <br>
+      <h1><a id="hignlevelcomponent">3. High-Level Component Design</a></h1>
+          <div>
+            <img class="tab1" src="high level copy.png" alt="High-Level" style="width: 976px;height: 631px;">
+          </div>
+      <br><br>
+      <br><br>
+      <h1><a id="classdiagrams">4. Class Diagrams</a></h1>
+      <div>
+        <img class="tab1" src="class diagram.png" alt="classdiagrams" style="width: 930px;height: 482px;">
+      </div>
+      <br><br>
+      <br>
+      <br>
+      <h1><a id="database">5. Database Design</a></h1>
+      <div><h4 class="tab1" style="color: darkcyan;">- ER Diagram </h4>  
+        <img class="tab1" src="ERD.png" alt="ERD" style="width: 800px;height: 700px;">
+      </div>
+      <br>
+      <br>
+      <br>
+      <h2 class="tab1" style="color: darkcyan;">-Further Elaboration</h2>
+
+      <div class="tab1">
+        <br>
+         <b>Table:</b> Teachers
+          <br>
+          <b>Purpose:</b> This table will hold the information of the teachers signing up for the service of Odhyayon. The stored information will be fetched during different interections a teacher makes with the interface of the website and the app.
+          <br>
+          <b>Attributes:</b>
+          <br>
+          <div class="tab2">
+          <t><b><u>ID</u>:</b> Used to give every teacher an unique identification number for the interface. ID will be used as the primary key for the table. This is autoincremented in the system and will assign an ID to each Teacher user on its own.</t>
+          <br>
+          <t><b><u>First_name</u>:</b> Used to store the teacher’s first name, which gets displayed on the interface when the teacher logs in.</t>
+          <br>
+          <t><b><u>Last_name</u>:</b> Used to store the teacher’s last-name, which gets displayed as a whole with the first_name when the teacher logs in. </t>
+          <br>
+          <t><b><u>Email</u>:</b> This attribute will store the email of the user and will be used as one of the main mediums of authentication for the user.</t>
+<br>
+<t><b><u>Password</u>:</b> This attribute will be used to store the password of the user, which will be stored encrypted. The password will be part of the main medium of authentication for the user, when logging in. </t>
+<br>
+<t><b><u>Date_of_birth</u>:</b> This attribute will store the date of birth of the user and will only allow users over the age of 13 to log in as a teacher in the interface. </t>
+<br>
+<t><b><u>Phone_number</u>:</b> This attribute will store the phone number of the user and will be used to help a user log in if they forget their usual login credentials.</t>
+<br></div></div>
+<div class="tab1">
+  <br>
+   <b>Table:</b> Students
+    <br>
+    <b>Purpose:</b> This table will hold the information of the students signing up for the service of Odhyayon. The stored information will be fetched during different interections a student makes with the interface of the website and the app.
+    <br>
+    <b>Attributes:</b>
+    <br>
+    <div class="tab2">
+    <t><b><u>ID</u>:</b> Used to give every student an unique identification number for the interface. ID will be used as the primary key for the table. This is autoincremented in the system and will assign an ID to each Student user on its own.</t>
+    <br>
+    <t><b><u>First_name</u>:</b> Used to store the student’s first name, which gets displayed on the interface when the students logs in.</t>
+    <br>
+    <t><b><u>Last_name</u>:</b> Used to store the student’s last-name, which gets displayed as a whole with the first_name when the student logs in. </t>
+    <br>
+    <t><b><u>Email</u>:</b> This attribute will store the email of the user and will be used as one of the main mediums of authentication for the user.</t>
+<br>
+<t><b><u>Password</u>:</b> This attribute will be used to store the password of the user, which will be stored encrypted. The password will be part of the main medium of authentication for the user, when logging in. </t>
+<br>
+<t><b><u>Date_of_birth</u>:</b> This attribute will store the date of birth of the Student and will allow teachers to know their students’ age.</t>
+<br>
+<t><b><u>Phone_number</u>:</b> This attribute will store the phone number of the user and will be used to help a user log in if they forget their usual login credentials.</t>
+<br>
+<t><b><u>Course_id</u>:</b> This is a foreign key that is collected from the table Courses. This attribute stores the ID of a course the student is enrolled in.</t>
+<br>
+<t><b><u>Profile_pic</u>:</b> This attribute is used to store a picture of the student, that will be used to authenticate the user’s access to resources of the class through face recognition.</t>
+
+
+    </div>
+      </div>
+      <div class="tab1">
+        <br>
+         <b>Table:</b> Courses
+          <br>
+          <b>Purpose:</b> This table will hold the information of the courses being created by a teacher. The stored information will be fetched during different interections a student and a teacher makes with the interface of the website and the app.
+          <br>
+          <b>Attributes:</b>
+          <br>
+          <div class="tab2">
+          <t><b><u>ID</u>:</b> Used to give every classroom an unique identification number for the interface. ID will be used as the primary key for the table. This is autoincremented in the system and will assign an ID to each classroom on its own.</t>
+          <br>
+          <t><b><u>Course_name</u>:</b> Used to store the name of the course, which gets displayed on the interface when the students or teachers are accessing this course.</t>
+          <br>
+          <t><b><u>Teacher_id</u>:</b>This is a foreign key that is collected from the table Teachers. This attribute stores the ID of the teacher who created by course.</t>
+      
+          </div>
+            </div>
+            <div class="tab1">
+              <br>
+               <b>Table:</b> Uploads
+                <br>
+                <b>Purpose:</b> This table will hold the information of the materials being uploaded in a course by a teacher. The materials will be available for students when they check the dashboard of the classrooms.
+                <br>
+                <b>Attributes:</b>
+                <br>
+                <div class="tab2">
+                <t><b><u>File_id</u>:</b> This attribute creates an autogenerated unique ID for the files uploaded. This attribute is the primary key for the table.</t>
+                <br>
+                <t><b><u>Upload</u>:</b> This attribute stores the actual file that is uploaded. Files are fetched from here when students are accessing these files.</t>
+                <br>
+                <t><b><u>Uploaded_at</u>:</b>This attribute holds the time and date for the materials uploaded by a teacher.</t>
+                <br>
+                <t><b><u>Title</u>:</b>This attribute holds the title used when uploading the material.</t>
+                <br>
+                <t><b><u>Course_ID</u>:</b>This attribute stores the ID of the course this file is attached in. This attribute is a foreign key.</t>
+                </div>
+                  </div>
+
+                
+              
+              <div class="tab1">
+                <br>
+                 <b>Table:</b> Queries
+                  <br>
+                  <b>Purpose:</b> This table will hold the information of the queries attached by students, when they go through a certain material.
+                  <br>
+                  <b>Attributes:</b>
+                  <br>
+                  <div class="tab2">
+                  <t><b><u>ID</u>:</b> The ID is the primary key of the queries, which give a unique identification number to each queries being made by a student.</t>
+                  <br>
+                  <t><b><u>Type</u>:</b> It is a composite key which holds the file format of the queries that are stored. When a question is asked in a text mode, the text is stored in a txt file, similarly when the queries are stored as voice messages, the queries are stored as mp3 file format.</t>
+                  <br>
+                  <t><b><u>Upload_id</u>:</b>This is a foreign key which stores the file ID of the file this query is attached to.</t>
+                  <br>
+                  <t><b><u>Student_ID</u>:</b>This is a foreign key that holds the ID of the student who has made the query. </t>
+                  </div>
+                    </div><br><br>
+              <h1><a id="implementation">6. Implementation Plan</a></h1>
+          <div>
+            <ul>
+            <h3>6.1 Approach</h3>
+          <div id="paragraph">
+            The system is developed following waterfall model life cycle. The steps are 
+            requirement analysis,design, implementation and unit testing, integration and 
+            system testing and lastly maintenance. The system will be developed under super 
+            vision and rigorous testing to avoid bugs and meet the desired result.
+          </div>
+           
+         <h3> 6.2 Design Pattern </h3>
+          <div id="paragraph">
+          
+            We are using MVC (MODEL-VIEW-CONTROLLER) design pattern provided by Django framework. MVC helps in avoiding mixture of code from different classes designed.
+            It has a common database for android app and website that can be accessed through server remotely to create, view and update.
+            <br>
+            <br>
+            •	The model component- Handles the data and data flow of the system and performs various operations on data.
+            <br>
+            •	The view component- This component is responsible for how the data is represented to the user and how they interact with the data.
+            <br>
+            •	The controller component- Manages user interaction and passes these interaction to the view and the model.
+            <br>
+            <br>
+    
+            There are various ways in which to visualize and interact with system data. Same data can be represented differently based on different scenarios. Also when we will need to change the view of any specific part of the system, changing the view will suffice rather we would have to change the whole thing along with data. This will also make code more manageable as the various components are separated and in the same time inter-connected to ensure the date flow, connectivity between the components and full functionality of the system.
+    
+    
+          </div>
+        </ul>
+        </div>
+    
+    </body>
+    </html> 
+            <img class="tab1" src="Waterfall model.jpg" alt="High-Level" style="width: 976px;height: 631px;">
+          </div>
+      <br><br>
+      <br><br>
+
+      <br>
+      <br>
+      <div>  </div>
+      
+      <!-- jQuery CDN - Slim version (=without AJAX) -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <!-- Popper.JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+   <!-- Bootstrap JS -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   <!-- jQuery Custom Scroller CDN -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+   <script type="text/javascript">
+       $(document).ready(function () {
+           $("#sidebar").mCustomScrollbar({
+               theme: "minimal"
+           });
+
+           $('#sidebarCollapse').on('click', function () {
+               $('#sidebar, #content').toggleClass('active');
+               $('.collapse.in').toggleClass('in');
+               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+           });
+       });
+   </script>
+
+    </body>
+
+</html>

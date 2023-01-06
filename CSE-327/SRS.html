@@ -1,0 +1,896 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>SRS</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+  
+    <style>
+  
+  
+
+.tab { margin-left: 40px; }
+.tab1
+{ margin-left: 50px; }
+.tab2
+{ margin-left: 60px; }
+@media print {
+			input#btnPrint {
+				display: none;
+				
+			}
+		}
+</style>
+
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h2 style="font-family: domillion brush free;"><a href="SRS.html">Odhyayon</a></h2>
+      </div>
+
+      <ul class="list-unstyled components">
+        <p style="font-family: Lato Black;text-align: center;">SRS for Odhyayon</p>
+        <li>
+          <a href="#table_content">Table of Content</a>
+        </li>
+        <li>
+          <a href="#introduction">Introduction</a>
+
+        </li>
+        <li>
+          <a href="#overall">Overall Description</a>
+        </li>
+        <li>
+          <a href="#interface">External Interface Requirements</a>
+
+        </li>
+        <li>
+          <a href="#systemfeatures">System Features</a>
+        </li>
+        <li>
+          <a href="#othersnon">Other Nonfunctional Requirements</a>
+        </li>
+        <li>
+          <a href="#others">Other Requirements</a>
+        </li>
+      </ul>
+
+      <ul class="list-unstyled CTAs">
+        <li>
+          <a href="#" class="download" onclick="window.print()">Print</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+    <!-- Page Content  -->
+    <div id="content">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse" class="btn btn-info">
+               <i class="fas fa-align-left"></i>
+                         <span>Toggle Sidebar</span>
+                        </button>
+                           <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-align-justify"></i>
+                            </button>
+                        </div>
+                   </nav>
+
+    
+      
+
+        <h1 style="text-align: center;">Software requirement specification for Odhyayon</h1>
+        <br><br><br><br>
+<h4><a id="table_content"></a></h4>
+<div class="tab">
+  <div><h4>Table of Contents</h4></div>
+</div>
+<br>
+<div class="tab">
+  <div>Revision History</div>
+</div>
+
+
+<div class="tab">
+  <div>1. Intrduction</div>
+</div>
+
+<div class="tab">
+  <div class="tab">
+    <div>1.1 Purpose</div>
+  </div>
+
+  <div class="tab">
+    <div>1.2 Document Conventions </div>
+  </div>
+
+  <div class="tab">
+    <div>1.3 Intended Audience and Reading Suggestions </div>
+  </div>
+
+  <div class="tab">
+    <div>1.4 Product Scope </div>
+  </div>
+
+  <div class="tab">
+    <div>1.5 References </div>
+  </div>
+</div>
+
+<div class="tab">
+  <div>2 Overall Description</div>
+</div>
+
+<div class="tab">
+  <div class="tab">
+    <div>2.1 Product Perspective </div>
+  </div>
+
+  <div class="tab">
+    <div>2.2 Product Functions</div>
+  </div>
+
+  <div class="tab">
+    <div>2.3 User Classes and Characteristics</div>
+  </div>
+
+  <div class="tab">
+    <div>2.4 Operating Environment </div>
+  </div>
+
+  <div class="tab">
+    <div>2.5 Design and Implementation Constraints </div>
+  </div>
+
+  <div class="tab">
+    <div>2.6 User Documentation</div>
+  </div>
+
+  <div class="tab">
+    <div>2.7 Assumptions and Dependencies </div>
+  </div>
+</div>
+
+<div class="tab">
+  <div>3 External Interface Requirements </div>
+</div>
+
+<div class="tab">
+  <div class="tab">
+    <div>3.1 User Interfaces </div>
+  </div>
+
+  <div class="tab">
+    <div>3.2 Hardware Interfaces </div>
+  </div>
+
+  <div class="tab">
+    <div>3.3 Software Interfaces </div>
+  </div>
+
+  <div class="tab">
+    <div>3.4 Communications Interfaces </div>
+  </div>
+</div>
+
+
+<div class="tab">
+  <div>4 System Features </div>
+</div>
+<div class="tab">
+  <div class="tab">
+    <div>4.1 Registration with OCR or manually </div>
+  </div>
+
+  <div class="tab">
+    <div>4.2 Upload and Render PDF </div>
+  </div>
+
+  <div class="tab">
+    <div>4.3 Facial Detection & Eye Tracking Report </div>
+  </div>
+</div>
+
+<div class="tab">
+  <div>5 Other Nonfunctional Requirements </div>
+</div>
+<div class="tab">
+  <div class="tab">
+    <div>5.1 Performance Requirements </div>
+  </div>
+
+  <div class="tab">
+    <div>5.2 Safety Requirements</div>
+  </div>
+
+  <div class="tab">
+    <div>5.3 Security Requirements</div>
+  </div>
+
+  <div class="tab">
+    <div>5.4 Software Quality Attributes</div>
+  </div>
+
+  <div class="tab">
+    <div>5.5 Business Rules</div>
+  </div>
+
+
+<div class="tab">
+  <div> class="tab"</div>
+  <div>6 Other Requirements</div>
+</div>
+
+<div class="tab">
+  <div>Appendix A: Glossary</div>
+</div>
+
+<div class="tab">
+  <div>Appendix B: To Be Determined List </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+      
+      <br>
+      <br>
+      <h1><a id="introduction">1. Introduction</a></h1>
+      <br>
+      <br>
+      <h3 class="tab">1.1 Purpose</h3>
+      <div class="tab1"> The purpose of this document is to give a detailed description of Odhyayon.
+        This document will provide details about how this system works, the interfaces of the system,
+        the features and how this system will react to user inputs/actions. This document will later
+        be submitted to Nabeel Mohammed for approval. </div>
+      <br>
+      <h3 class="tab">1.2 Document Conventions</h3>
+      <div class="tab1"> This document is styled according to IEEE SRS template.</div>
+      <br>
+      <h3 class="tab">1.3 Intended Audience </h3>
+      <div class="tab1">This document is intended for developers, writers of this documentation, professors, business
+        analysts, users and testers. </div>
+      <br>
+      <h3 class="tab">1.4 Product Scope</h3>
+      <div class="tab1"> The purpose of this project is to create software that will track the reading progress of
+        students. This system will make distance learning more accessible and provide tools for
+        teachers to assign reading materials for students and track them more conveniently.
+        All the features of this software will be fundamental and user-friendly. It will also
+        require a minor interaction possible, making the system very straightforward. </div>
+      <br>
+      <h3 class="tab">1.5 References</h3>
+      <div> </div>
+      <br>
+      <br>
+      <h1><a id="overall">2. Overall Description</a></h1>
+      <br><br>
+      <h3 class="tab">2.1 Product Perspective</h3>
+      <div class="tab1"> The system will be designed to help teachers keep track of the reading progress of a student
+        on their assigned reading materials provided by them. </div><br>
+      <h3 class="tab">2.2 Product Functions</h3>
+      <div class="tab1"> The prime functionalities of this system are described below:
+        <ul>1. Students and teacher can create their accounts.</ul>
+        <ul>2. Dashboard functionality where teachers can assign their materials and students can read/view those
+          materials.</ul>
+        <ul>3. Face detection to ensure that correct person is reading the materials also will be used for tracking
+          purposes.</ul>
+        <ul>4. Students can ask question in various way like writing or through an audio clip </ul>
+      </div><br>
+      <h3 class="tab">2.3 User Classes and Characteristics</h3>
+      <div class="tab1"> There will be three user classes in this system:
+        <br>
+        <ol>
+          <li>Admin:
+            <br>
+            -Have full access to all the information and codes.
+            <br>
+            -Can create and remove users that is teachers and students.
+            <br>
+            -Can monitor all the activities of this software.
+            <br>
+          </li>
+          <li>Teachers:
+            <br>
+            -Can access Teacher Dashboard
+            <br>
+            -Add students to the classroom by sharing classcode
+            <br>
+            -Upload reading materials as tasks.
+            <br>
+            -Can track how much progress is done.
+            <br>
+          </li>
+          <li>Students:
+            <br>
+            -Can access Student Dashboard
+            <br>
+            -View reading materials.
+            <br>
+            -Can ask questions to the teachers in various methods.
+          </li>
+        </ol>
+      </div><br>
+      <h3 class="tab">2.4 Operating Environment</h3>
+      <div class="tab1">
+        <ol>
+          <li>Backend:<br>
+            <ul>
+              <li>Hardware Platform: x86 ,x32</li>
+              <li>Operating System: Windows 10</li>
+              <li>Programming Language: Python 3.9.6</li>
+              <li>Web Framework: Django 3.2.5</li>
+              <li>Database: MySQL 8.0</li>
+            </ul>
+          </li>
+          <li>Frontend:<br>
+            <ul>
+              <li>Android App: <br>
+                <ol>
+                  <li>Hardware Platform: arm</li>
+                  <li>Operating System: Android 6.0+</li>
+                  <li>Programming Language: Kotlin</li>
+                </ol>
+              </li>
+              <li>Web App: <br>
+                <ol>
+                  <li>Framework: React</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div><br>
+      <h3 class="tab">2.5 Design and Implementation Constraints</h3>
+      <div> </div>
+      <br>
+      <h3 class="tab">2.6 User Documentation</h3>
+      <div> </div>
+      <br>
+      <h3 class="tab">2.7 Assumptions and Dependencies</h3>
+      <div class="tab1"> This system will be depended on external libraries which will be used for our Face Recognition function
+            <br>
+            <li>Facial Recognition library from Python's PyPI</li>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h1><a id="interface">3. External Interface Requirements</a></h1>
+      <br><br>
+      <h3 class="tab">3.1 User Inerfaces</h3>
+      <div class="tab">Some screen mockups could be like these-
+        <br><ul>
+      <p class="tab">Home page:</p>
+      </ul>
+      <img class="tab2" src="HOME 2.PNG" >
+      <br><ul>
+      <p class="tab">Login screen:</p>
+      </ul>
+      <img class="tab2" src="LOGIN 2.PNG" style="width:209px;height:412px;">
+      
+      <br><ul> <p class="tab">Sign up screen:</p>
+      </ul>
+      <img class="tab2" src="signup.PNG" ></div>
+<br><br>
+      <h4 class="tab1">Website:</h4>
+      <div class="tab1">A home screen will be shown/Login and signup screen will be shown.The user will signup/login
+        according to his
+        profession(teacher/student).After login the teacher will see the dashboard where his courses will be seen.(!!)
+        Students will have to add photo when signing up and will see the dashboard where student can join classroom
+        through code.And some features like reading materials, tasks, deadlines, record questions and face recognition
+        will be there.</div>
+      <h4 class="tab1">App:</h4>
+      <div class="tab1">Same as above</div>
+      <div> </div>
+      <br>
+      <h3 class="tab">3.2 Hardware Interfaces</h3>
+      <ul class="tab1">
+        <div>  </div>
+          OS: Android 6.0 or above 
+          <br>
+
+          RAM: 1 GB+ 
+          <br>
+
+          Web/Phone camera: 2MP or more 
+          <br>
+
+          CPU: 1GHz 
+          <br>
+</ul>
+ <div>  </div>
+ <br>
+<h3 class="tab">3.3  Software Interfaces</h3>
+<div class="tab1"> Requirements :
+   <li>Kotlin</li>
+   <li>React</li>
+   <li>Python</li>
+   <li>Django</li>
+   <li>Bootstrap</li>
+   <li>SQL</li>
+   <li>Volley or Retrofit</li>
+ <div>  </div>
+<br>
+  </div>
+  <h3 class="tab">3.4  Communications Interfaces</h3>
+<div class="tab1"> RESTful API over HTTP will be implemented for communication purpose. </div>
+<div>  </div>
+<br>
+<br>
+<h1><a id="systemfeatures">4.  System Features</a></h1>
+<br><br>
+<img src="UML.png" alt="Use Case Diagram" style="width:800px;height:600px;">
+<br>
+<br>
+<h6 class="tab1"><div>
+  1.<br>
+  <b>Use Case Name:</b> Registers for an account <br>
+<b>Actors:</b> Teacher/Student<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> Unregistered students/teachers can choose this option to register into their account using their necessary information, such as email, password, first name, last name, etc.<br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Actor enters the Sign up page</td>
+    <td>2.	System prompts the Sign up entry blocks</td>
+  </tr>
+  <tr>
+    <td>3.	Actor enters information in a valid formation</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.	Actor clicks the “Sign Up” Button</td>
+    <td>5.	System stores the information</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>6.	System prompts a Sign up successful message</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>7.	Redirects the user to the log in page</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  5.1 System finds information entered that are in invalid format, asks the user to enter the specific information in the right format.<br>
+  5.2 System cannot access the database due to connection error, system prompts the message “Connection Error”.<br><br>
+</div></h6>
+<br>
+<br>
+<h6 class="tab1"><div>
+  2.<br>
+  <b>Use Case Name:</b> Logs in to their account <br>
+<b>Actors:</b> Teacher/Student<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> Registered students/ teachers can log in to the system by providing their email address and password.<br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Actor enters the Log in page</td>
+    <td>2.	System prompts the Log in entry blocks</td>
+  </tr>
+  <tr>
+    <td>3.	Actor enters information in a valid formation</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.	Actor clicks the “Log in” Button</td>
+    <td>5.	System matches the information</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>6.	Redirects the user to the user dashboard</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  5.1 System finds information entered that are in invalid format, asks the user to enter the specific information in the right format.<br>
+  5.2 System cannot access the database due to connection error, system prompts the message “Connection Error”.<br>
+  5.3 System doesn’t find matching information in the database, prompts a message saying wrong information entered<br><br>
+</div></h6><br>
+<br>
+<h6 class="tab1"><div>
+  3.<br>
+  <b>Use Case Name:</b> Joins Classroom <br>
+<b>Actors:</b> Student<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> Students can join the classroom using the shared classroom code from the teacher.  <br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Student clicks on the join class option on the dashboard</td>
+    <td>2.	System prompts a pop up that asks for the classroom code</td>
+  </tr>
+  <tr>
+    <td>3.	Student enters the classroom code </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.	Student clicks on the “Join” Button</td>
+    <td>5.	System matches the classroom code with the codes present in the database</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>6.	System takes the user to the classroom dashboard</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  5.1 System cannot access the database due to connection error, system prompts the message “Connection Error, could not create class”.<br>
+  5.2 System finds no matching classroom, prompts the message that no classroom is found.<br><br>
+</div></h6>
+<h6 class="tab1"><div>
+  4.<br>
+  <b>Use Case Name:</b> Creates Classroom <br>
+<b>Actors:</b> Teacher<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> Teachers can create classroom where they can add students. Every class will have it’s unique code that the students could use to join the class. <br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Teacher clicks on the add class button</td>
+    <td>2.	System prompts a pop up with input blocks for the necessary details of the classroom, such as name, section, description, etc</td>
+  </tr>
+  <tr>
+    <td>3.	Teacher enters classroom information </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.	Teacher clicks the “Create Class” Button</td>
+    <td>5.	System enters the information in the database</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>6.	System generates a unique code for the classroom</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>7.	System creates a box on the dashboard with the link to the classroom</td>
+  </tr>
+  <tr>
+    <td>8.	Copies the classroom code from the box and shares with students</td>
+    <td></td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  5.1 System cannot access the database due to connection error, system prompts the message “Connection Error, could not create class”, takes back to the dashboard.<br><br>
+</div></h6>
+<h6 class="tab1"><div>
+  5.<br>
+  <b>Use Case Name:</b> Assigning PDFs as reading materials <br>
+<b>Actors:</b> Teacher<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> Teachers will assign PDFs as reading materials for the classroom, with a specified deadline.<br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Teacher enters the classroom dashboard</td>
+    <td>2.	System opens the classroom dashboard</td>
+  </tr>
+  <tr>
+    <td>3.	Teacher clicks on the “Add Tasks” option</td>
+    <td>4.	System asks the user with a popup to upload the file</td>
+  </tr>
+  <tr>
+    <td>5.	Teacher selectes the file and presses open</td>
+    <td>6.	System adds the file and provides the user a field for them to add any information that needs to go with the file</td>
+  </tr>
+  <tr>
+    <td>7.	Teacher adds the details and  the deadline of the task and presses “Add”</td>
+    <td>8.	System adds this on the classroom dashboard as an assignment with specified deadline for the students</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  5.1 Teacher uploads a file of the wrong format, the system prompts the message “Wrong file format!”<br><br>
+</div></h6>
+<h6 class="tab1"><div>
+  6.<br>
+  <b>Use Case Name:</b> Records Realtime Questions <br>
+<b>Actors:</b> Student<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> Students can add questions when they are going through the reading materials. To add question they can use the comment option, or add a recorded voice message, and highlight the specific part of the document that they are reffering to.<br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Student click on the assigned PDF</td>
+    <td>2.	System opens the PDF </td>
+  </tr>
+  <tr>
+    <td>3.	Student goes through the PDF</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.	Student records the question they have and highlight the part they are referring to</td>
+    <td>5.	System takes in the recorded question and stores in the database</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  5.1 System cannot access the database due to connection error, system prompts the message “Connection Error, could not add the question”, takes back to the PDF file.<br><br>
+</div></h6>
+<h6 class="tab1"><div>
+  7.<br>
+  <b>Use Case Name:</b> Checks questions and adds answers <br>
+<b>Actors:</b> Teacher<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> Teachers can answer the questions asked by the students, either through a text, or a voice message.<br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Teacher clicks on the assigned reading material, and opens the PDF</td>
+    <td>2.	System opens the PDF </td>
+  </tr>
+  <tr>
+    <td>3.	Teacher clicks on the “Check questions” option</td>
+    <td>4.	System opens all the questions asked, fetches it from the database</td>
+  </tr>
+  <tr>
+    <td>5.	Teacher records the answer and presses “Add Answer”</td>
+    <td>6.	System takes in the recorded answer and stores in the database to show it to the students</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  4.1 System cannot access the database due to connection error, system prompts the message “Connection Error, could not find the question”, takes back to the PDF file.<br>
+  4.2 System does not find any questions asked by students, prompts the message “No question asked from this material”, takes back to the PDF file.<br>
+  6.1 System cannot access the database due to connection error, system prompts the message “Connection Error, could not add the answer”, takes back to the PDF file.<br><br>
+</div></h6>
+<h6 class="tab1"><div>
+  8.<br>
+  <b>Use Case Name:</b> Takes picture of a student when they are studying a material  <br>
+<b>Actors:</b> System Administration<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> When a student is studying a material, the system will take pictures of the student from time to time and run a face recognition on them to identify them and to keep track of the student’s studying period.   <br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Students Open the PDF</td>
+    <td>2.	System opens the camera </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>3.	System takes picture and runs a facial recognition</td>
+  </tr>
+  <tr>
+    <td>4.	Student continues to go through the material</td>
+    <td>5.	System keeps taking pictures on a time interval </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>6.	System saves all the pictures on the database</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  2.1 System cannot access the camera, reloads the webpage and asks the user to give access to the camera.<br>
+  2.2 The user denies the system from having access to the camera, the system stops the user from having access to the reading material.<br>
+  3.1 The System does not recognize the student, logs out the student from their dashboard.<br>
+  6.1 System cannot access the database due to connection error, system prompts the message “Connection Error, we cannot save the pictures”, reloads the entire page.<br><br>
+</div></h6>
+<h6 class="tab1"><div>
+  9.<br>
+  <b>Use Case Name:</b> Alters Student/Teacher Information  <br>
+<b>Actors:</b> Admin<br><br>
+  <b>Type:</b> Primary<br><br>
+  <b>Description:</b> An admin user can remove or alter user information of students/teachers, based on any request made by them.<br>
+  <br><b>Typical Course of action:</b>
+  <br><table>
+    <tr style="text-align: center; font: bolder;">
+      <th>
+    Actors Actions
+    </th>
+  <th>System Response</th></tr>
+  <tr>
+    <td>1.	Admin enters the Admin log in page</td>
+    <td>2.	System prompts the Log in entry blocks</td>
+  </tr>
+  <tr>
+    <td>3.	Actor enters information in a valid format</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.	Actor clicks the “Log in” Button</td>
+    <td>5.	System matches the information</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>6.	Redirects the user to the admin dashboard</td>
+  </tr>
+  </table><br><br>
+  <b>Alternative course of action:</b>
+  <br><br>
+  5.1	System finds information entered that are in invalid format, asks the user to enter the specific information in the right format<br>
+  5.2	System doesn’t find matching information in the database, prompts a message saying wrong information entered<br><br>
+</div></h6>
+<h3 class="tab">4.1 Registration with google account </h3>
+ <div class="tab1"> 4.1.1 Description and Priority </div>
+    <div class="tab2">Students can register with their google accounts synced on the webpage. </div>
+ <div class="tab1"> 4.1.2 Stimulus/Response Sequence</div>
+    <div class="tab2">For automatic registration, the user will need to press on the option of sign up with google. This will automatically trugger the system to use the information used to create the google account.  </div>
+ <div class="tab1"> 4.1.3 Functional Requirements</div>
+<div class="tab2">•	This will ensure an easier access to making accounts on the website providing faster service.  </div>
+<br>
+<h3 class="tab">4.2  Upload and Render PDF</h3>
+ <div class="tab1"> 4.2.1 Description and Priority </div>
+    <div class="tab2">Teacher can upload reading materials as PDF and the PDF will render in real time in students devices.  </div>
+ <div class="tab1"> 4.2.2 Stimulus/Response Sequence</div>
+    <div class="tab2">Teacher will upload the pdf to our system and set a deadline. This is will trigger a push notification and email to the student's device.  </div>
+ <div class="tab1"> 4.2.3 Functional Requirements</div>
+<div class="tab2">•	Teacher can upload any size of pdf or text documents. Check if the file is a valid document.  </div>
+<br>
+<h3 class="tab">4.3  Facial Detection</h3>
+ <div class="tab1"> 4.3.1 Description and Priority </div>
+    <div class="tab2">When students recieve their reading materials and start reading them. The client device will take pictures of the student's face using the front camera to ensure if the student is actually reading.  </div>
+ <div class="tab1"> 4.3.2 Stimulus/Response Sequence</div>
+    <div class="tab2">There is no need for user input. The device will automatically take pictures through the front camera every minute. It'll respond either the face is actually the student's face or not and how long they spent on a single page. This will be generated as a report.  </div>
+ <div class="tab1"> 4.3.3 Functional Requirements</div>
+<div class="tab2">•	Takes one picture through the front camera every 5 minutes. <br>
+  •	Through random sampling sends one picture from every 5 minutes for facial recognition. <br>
+  •	Creates a reel of all the pictures with the time it was taken at
+    </div>
+<br><br>
+<h1><a id="othersnon">5.  Other Nonfunctional Requirements</a></h1>
+<br><br>
+<h3 class="tab">5.1  Performance Requirements</h3>
+       <div class="tab1">The requirements are not necessarily required by the users however for maximum efficiency the system should be able to run without lagging during multiple access at the same time by both teachers and students by ensuring orderly execution to maintain data consistency. This feature will allow multiple real time access to pdfs, upload pdfs, add comments while maintaining pdfs. The system should also be able to detect faces while capturing photos for profile creation.  </div>
+       <br>
+<h3 class="tab">5.2  Safety Requirements</h3>
+  <div class="tab1">The system requires pictures of users while creating accounts for preventing fake profiles, however malfunctioning or data inconsistency could result in loss of data from the database that backs up the pictures. 
+
+For prevention a separate team will be dedicated to the maintenance of the database to prevent any leakage. User authorization and data encryption should be given utmost priority and permission access will be set for the database of each user carefully.
+ </div>
+  <br>
+<h3 class="tab">5.3  Security Requirements</h3>
+  <div> <ul> Users will be asked for consent for damage/leakage of data before proceeding for taking pictures </ul>
+    
+    <ul> Data of each user will be encrypted with a unique key so that in case of leakage the data will not be decoded easily </ul>
+    
+    <ul> A measure of authentication will be taken before any kind of access to user details or the database </ul>
+    
+    <ul> Each student and teacher will be restricted to the database, only administrators of the organization will have the right to deal with data.
+ </ul>
+ 
+    <ul> In case of malfunction, system should shutdown itself </ul> </div>
+  <br>
+<h3 class="tab">5.4  Software Requirements</h3>
+  <div> <ul>Each section of the code for a specific function must have clear cut requirements so that test cases can be generated to pass evaluation criteria.</ul>  
+    
+    <ul>While testing functionality other features must remain consistent.
+</ul>
+    
+    <ul>The software must support high testability for easier maintenance
+</ul>
+    
+    <ul> Software should be able to undergo constant bug fixes, updates, add features easily.
+</ul>
+
+<ul> Bugs must also be easily identified.</ul>
+
+<ul>Diagrams should be provided in test documentation for ease of understanding developers and clients both</ul>
+    
+    </div>
+  <br>
+<h3 class="tab">5.5  Business Rules</h3>
+  <div> <ul>Not applicable.</ul> </div>
+  <br>
+<br>
+<h1><a id="others">6.  Other Requirements</a></h1>
+  <div>  </div>
+<br>
+<h2 class="tab">Appendix A: Glossary</h2>
+  <div> <ul> <b>Student </b> - Users that will be enrolled in a class created by the teacher and access class contents. </ul> 
+    
+    <ul> <b>Teacher </b> - Users that will be able to create classes and upload pdfs.</ul>
+
+<ul> <b>Admin </b> - Users that will regulate data of both students, teachers and classroom datas and regulate the system.</ul>
+
+<ul> <b>Landing Page </b> - The page that will be visible to users without an account. Page that contains information about the website and link directing to login/signup page.
+</ul>
+
+<ul> <b>SIgn up page </b> -  The page new users trying to make an account will be redirected to.
+</ul>
+
+<ul><b>Log in page </b> - The page users will be redirected to login to their existing account.
+</ul>
+
+<ul><b>Dashboard </b> - The specific page that students and teachers will be directed to after login. 
+</ul>
+
+
+
+ </div>
+  <br>
+<h2 class="tab">Appendix B: Analysis Models</h2>
+  <div> <ul> TBD </ul> </div>
+  <br>
+<h2 class="tab">Appendix C: To Be Determined List</h2>
+  <div> <ul> TBD </ul>> </div>
+  <br> </div>
+
+   <!-- jQuery CDN - Slim version (=without AJAX) -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <!-- Popper.JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+   <!-- Bootstrap JS -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   <!-- jQuery Custom Scroller CDN -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+   <script type="text/javascript">
+       $(document).ready(function () {
+           $("#sidebar").mCustomScrollbar({
+               theme: "minimal"
+           });
+
+           $('#sidebarCollapse').on('click', function () {
+               $('#sidebar, #content').toggleClass('active');
+               $('.collapse.in').toggleClass('in');
+               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+           });
+       });
+   </script>
+</body>
+</html>

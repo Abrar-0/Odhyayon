@@ -1,0 +1,9 @@
+{% extends 'odhyayon/base.html' %}
+
+{% block content %}
+
+{% for student in course.student_set.all %}
+<img src = "{{ student.profile_pic }}">
+{% endfor %}
+
+{% endblock %}

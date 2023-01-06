@@ -1,0 +1,57 @@
+{% extends 'odhyayon/pdfbase.html' %}
+
+{% block title %} Class view {% endblock %}
+{% block urls %}
+<li>
+                    <a href="{% url 'create-upload' course.id %}">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; upload pdf
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
+                    </a>
+                </li>  
+
+{% endblock %}
+{% block content %}
+
+{% if course %}    
+
+{% for pdf in course.upload_set.all %}
+
+<div class="w3-row">
+
+<div class="w3-col s12">
+<div class="card">
+  <div class="card-header">
+    {{ pdf.title }}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <form action="{% url 'delete-upload' course.id %}" method="post" style="display: inline;">
+                                {% csrf_token %}
+                                <input type="hidden" name="courses_id" value="{{ course.id }}" />
+                                <button type="submit" class="btn btn-outline-light btn-sm">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </button>
+                            </form>
+  </div>
+</div>
+</div>
+</div>
+
+{% endfor %}
+
+{% else %}
+
+      <h3> you dont have any classes</h3>
+
+{% endif %}
+
+
+{% endblock %}
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Login Page</title>
+       <style> body {
+            background-image: url('BGIMG5.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            
+        }
+
+form{
+  
+margin: 0 auto; 
+width:400px;
+}
+.form d-flex{
+  margin: 0 auto; 
+width:200px;
+}
+#search {
+    max-width: 75%;
+}
+
+
+        
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0c0d22f1;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h1 style="font-family:domillion brush free;color: #E3963E;">&nbspOdhyayon &nbsp &nbsp;</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll" >
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;float: middle;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'index' %}">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'signupProceed' %}">Sign up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="{% url 'loginProceed' %}" aria-current="page" >Login</a>
+                  </li>
+                </ul>
+                
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; position: absolute; right: 0;">
+                
+                  <li class="nav-item">
+                  <a class="nav-link" href="{% url 'teacherLogin' %}">Jump to Teacher Portal</a>
+                </li>
+              
+                </ul>
+              
+              <!--  <form class="d-flex" container-fluid>
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+                  <button class="btn btn-outline-success" type="submit"><t style="color: azure;">Search</t></button>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+          <br>
+          <br></br>
+          <br></br>
+          <h1 style="text-align:center;font-size:200%;"> <t style="color:#008080; font-family:Raleway Black;"> Log in to your <t style="color: #E3963E;">student</t> account</t></h1>
+          <br></br>
+          
+          
+            <form method="POST" action="{% url 'formsubmitted' %}">
+                {% csrf_token %}
+              <div class="mb-3">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="studentemail" placeholder="name@example.com" name="studentemail" required>
+                  <label for="studentemail"><t style="font-family: Raleway">Email address</t></label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="studentpass" placeholder="Password" name="studentpass" required>
+                  <label for="studentpass"><t style="font-family: Raleway">Password</t></label>
+                </div>
+                <br>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="rememberme1">
+                  <label class="rememberme" for="rememberme1"><t style="font-family: Raleway">Remember Me</t></label>
+                </div>
+                <br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          
+
+            
+
+    </body>
+
+
+
+</html>

@@ -1,0 +1,43 @@
+[
+    {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup_student.xml",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_signup_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_student.xml",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_login_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_identitycheck.xml",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_identitycheck.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_teacher.xml",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_login_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup_teacher.xml",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_signup_teacher.xml"
+=======
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_teacherlogin.xml",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_teacherlogin.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_studentlogin.xml",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_studentlogin.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_usercheck_signup.xml",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_usercheck_signup.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_usercheck_login.xml",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_usercheck_login.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+>>>>>>> 0d0aef87c40dea7bb14d9557b8d30414b7f03d7a
+    }
+]

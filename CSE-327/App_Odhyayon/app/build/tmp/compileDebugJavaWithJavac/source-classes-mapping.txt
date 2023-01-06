@@ -1,0 +1,12 @@
+com/firstapp/myapplication/databinding/ActivityUsercheckSignupBinding.java
+ com.firstapp.myapplication.databinding.ActivityUsercheckSignupBinding
+com/firstapp/myapplication/databinding/ActivityMainBinding.java
+ com.firstapp.myapplication.databinding.ActivityMainBinding
+com/firstapp/myapplication/databinding/ActivityStudentloginBinding.java
+ com.firstapp.myapplication.databinding.ActivityStudentloginBinding
+com/firstapp/myapplication/databinding/ActivityUsercheckLoginBinding.java
+ com.firstapp.myapplication.databinding.ActivityUsercheckLoginBinding
+com/firstapp/myapplication/databinding/ActivityTeacherloginBinding.java
+ com.firstapp.myapplication.databinding.ActivityTeacherloginBinding
+com/firstapp/myapplication/BuildConfig.java
+ com.firstapp.myapplication.BuildConfig

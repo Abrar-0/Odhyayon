@@ -1,0 +1,18 @@
+{
+<<<<<<< HEAD
+  "version": 2,
+=======
+  "version": 3,
+>>>>>>> 0d0aef87c40dea7bb14d9557b8d30414b7f03d7a
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+<<<<<<< HEAD
+  "applicationId": "com.firstapp.odhyayon",
+=======
+  "applicationId": "com.firstapp.myapplication",
+>>>>>>> 0d0aef87c40dea7bb14d9557b8d30414b7f03d7a
+  "variantName": "debug",
+  "elements": []
+}

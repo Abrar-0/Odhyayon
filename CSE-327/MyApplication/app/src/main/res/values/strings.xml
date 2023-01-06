@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_teacherlogin">teacherlogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="todo">todo</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_to_odhyayon_your_daily_classroom">Welcome to Odhyayon, your daily classroom!</string>
+    <string name="odhyayon">Odhyayon!</string>
+    <string name="log_in_to_your_student_account">Log in to your student account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="Todo">TODO</string>
+    <string name="log_in_to_your_teacher_account">Log in to your teacher account</string>
+    <string name="temail">Email</string>
+    <string name="tpassword">Password</string>
+    <string name="are_you_a_teacher_or_a_student">Are you a teacher or a student?</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="sign_up_to_your_teacher_account">Sign up to your teacher account</string>
+    <string name="sign_up_to_your_student_account">Sign up to your student account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="institution">Institution</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="classroom">Classroom</string>
+    <string name="account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_your_dashboard">Welcome to your dashboard</string>
+    <string name="welcome_to_your_classroom">Welcome to your Classroom</string>
+    <string name="add_or_change_info_of_your_account">Add or change info of your account</string>
+    <string name="add_classroom">Add Classroom</string>
+    <string name="title_activity_pdf_viewer">pdfViewer</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="pdf_example">PDF example</string>
+    <string name="title_activity_pdfrender">PDFrender</string>
+    <string name="add_classroom2">Add Classroom</string>
+    <string name="add_class">Add Class</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="course_section">Course Section</string>
+    <string name="cancel">cancel</string>
+    <string name="info">Info</string>
+    <string name="information">Information</string>
+
+</resources>

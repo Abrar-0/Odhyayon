@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupteacher">
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bgimg5111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/odhyayon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="@font/domillionbrushfree"
+                    android:text="@string/odhyayon"
+                    android:textColor="#FF9800"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/signtch"
+                    android:layout_width="365dp"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="152dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:text="@string/sign_up_to_your_teacher_account"
+                    android:textAlignment="center"
+                    android:textColor="#4C3F71"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/textfirstnamet"
+                    android:layout_width="214dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="224dp"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway_bold"
+                    android:inputType="textPersonName"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.89"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/firstnamet"
+                    android:layout_width="117dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="236dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:lineSpacingExtra="14sp"
+                    android:text="@string/first_name"
+                    android:textAlignment="center"
+                    android:textColor="#4C3F71"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.078"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/lastnamet"
+                    android:layout_width="105dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:lineSpacingExtra="14sp"
+                    android:text="@string/last_name"
+                    android:textAlignment="center"
+                    android:textColor="#4C3F71"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.098"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/firstnamet" />
+
+                <EditText
+                    android:id="@+id/textlastnamet"
+                    android:layout_width="214dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="280dp"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway_bold"
+                    android:inputType="textPersonName"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.89"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/emailt"
+                    android:layout_width="105dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:lineSpacingExtra="14sp"
+                    android:text="@string/email_address"
+                    android:textAlignment="center"
+                    android:textColor="#4C3F71"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.098"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lastnamet" />
+
+                <EditText
+                    android:id="@+id/Textemailt"
+                    android:layout_width="214dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="348dp"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway_bold"
+                    android:inputType="textWebEmailAddress"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.89"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/phoneNot"
+                    android:layout_width="112dp"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="428dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:lineSpacingExtra="8sp"
+                    android:text="@string/phone_number"
+                    android:textAlignment="center"
+                    android:textColor="#F1F1F1"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.096"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/Textphonet"
+                    android:layout_width="214dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="428dp"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway_bold"
+                    android:inputType="numberDecimal|phone"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.931"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/tpassword"
+                    android:layout_width="107dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:lineSpacingExtra="16sp"
+                    android:text="@string/password"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.114"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/phoneNot" />
+
+                <EditText
+                    android:id="@+id/editTextPasswordt"
+                    android:layout_width="213dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="504dp"
+                    android:ems="10"
+                    android:fontFamily="@font/raleway_bold"
+                    android:inputType="textPassword"
+                    android:textColor="#3949AB"
+                    android:textSize="12sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.931"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/buttonsignt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="572dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/raleway_bold"
+                    android:text="@string/sign_up"
+                    android:textColor="#558B2F"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

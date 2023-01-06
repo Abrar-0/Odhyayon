@@ -1,0 +1,235 @@
+[
+    {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_ralewayblack.ttf.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\ralewayblack.ttf"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_ralewaymedium.ttf.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\ralewaymedium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgimg5.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\bgimg5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_identitycheck.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_identitycheck.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_teacher.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_login_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgimg51.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\bgimg51.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_student.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_login_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_lato_black.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\lato_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_google_icon.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\google_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_domillionbrushfree.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\domillionbrushfree.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_ralewaybold.ttf.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\ralewaybold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttonshape.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup_teacher.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_signup_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup_student.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\layout\\activity_signup_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gif1.gif.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\gif1.gif"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_domillionbrushfree1.otf.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\domillionbrushfree1.otf"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_raleway_medium.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\raleway_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\font_lato.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\font\\lato.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgimg511.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\CSE327\\summer21.cse327.1.9\\App_Odhyayon\\app\\src\\main\\res\\drawable\\bgimg511.jpg"
+=======
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\font_domillionbrushfree.otf.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\font\\domillionbrushfree.otf"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\font_raleway_bold.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\font\\raleway_bold.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_usercheck_signup.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_usercheck_signup.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_usercheck_login.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_usercheck_login.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_bgimg5111.jpg.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\bgimg5111.jpg"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgimg511.jpg.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\drawable\\bgimg511.jpg"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_teacherlogin.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_teacherlogin.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_studentlogin.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_studentlogin.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\MyApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+>>>>>>> 0d0aef87c40dea7bb14d9557b8d30414b7f03d7a
+    }
+]
